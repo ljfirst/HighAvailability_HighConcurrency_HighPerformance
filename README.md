@@ -1,6 +1,5 @@
-
-### 互联网三高项目（高并发、高可用、高性能）连载
-### HighAvailability_HighConcurrency_HighPerformance
+# 互联网三高项目（高并发、高可用、高性能）连载
+# HighAvailability_HighConcurrency_HighPerformance
 
 ### 项目介绍
 + 随着互联网流量的日益增加，高并发、高可用、高性能相关的技术逐渐占据主导。
