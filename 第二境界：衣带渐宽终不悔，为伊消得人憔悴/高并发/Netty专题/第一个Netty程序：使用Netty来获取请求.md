@@ -5,7 +5,7 @@
 + 搭建一款简单的Netty程序，只编写简单的服务端程序，通过浏览器或者bash的curl方式来感受一下netty的通信模式
 
 ### 项目源码
-+ HighAvailability_HighConcurrency_HighPerformance\sourcecode\nettyDemo\src\main\java\nettyDemo01GetHttpmsg
++ [HighAvailability_HighConcurrency_HighPerformance](https://github.com/ljfirst/HighAvailability_HighConcurrency_HighPerformance)
 
 ### 搭建、设计思路
 + 一个简单且完整的Netty服务器端程序，包括一个Server、ServerInitializer、ServerHandle
