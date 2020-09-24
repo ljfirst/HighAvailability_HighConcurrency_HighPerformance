@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SourceCode/DistributedLock_Redis/DistributedLock_Redis.iml" filepath="$PROJECT_DIR$/SourceCode/DistributedLock_Redis/DistributedLock_Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" filepath="$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" />
+    </modules>
+  </component>
+</project>
