@@ -7,6 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Random;
+
 /**
  * @author liujun
  * @version 1.0
@@ -25,7 +27,9 @@ public class TestConnect {
 
     @Test
     public void set() {
-        redisTemplate.opsForValue().set("lisi", "liuj");
+        Random r = new Random();
+        int y = r.nextInt(10000);
+        redisTemplate.opsForValue().set("lisi", "liuj"+y);
         System.out.println(redisTemplate.opsForValue().get("lisi"));
     }
 

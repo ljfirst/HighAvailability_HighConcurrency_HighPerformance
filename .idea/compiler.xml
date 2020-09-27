@@ -7,14 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DistributedLock_Redis" />
+        <module name="CacheDemo" />
+        <module name="JavaLock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CacheDemo" target="1.8" />
       <module name="DistributedLock_Redis" target="8" />
+      <module name="JavaLock" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CacheDemo" options="-parameters" />
       <module name="DistributedLock_Redis" options="-parameters" />
     </option>
   </component>
