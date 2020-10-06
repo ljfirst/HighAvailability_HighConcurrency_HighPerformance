@@ -8,13 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DistributedLock_Redis" />
         <module name="CacheDemo" />
-        <module name="JavaLock" />
+        <module name="Java_Stream" />
+        <module name="JavaThread_Lock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CacheDemo" target="1.8" />
       <module name="DistributedLock_Redis" target="8" />
-      <module name="JavaLock" target="8" />
+      <module name="Java_Stream" target="8" />
+      <module name="JavaThread_Lock" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

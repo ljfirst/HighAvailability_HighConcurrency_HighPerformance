@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/SourceCode/DistributedLock_Redis/pom.xml" />
         <option value="$PROJECT_DIR$/SourceCode/JavaLock/pom.xml" />
+        <option value="$PROJECT_DIR$/SourceCode/Java_Stream/pom.xml" />
       </list>
     </option>
   </component>

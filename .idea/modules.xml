@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SourceCode/DistributedLock_Redis/DistributedLock_Redis.iml" filepath="$PROJECT_DIR$/SourceCode/DistributedLock_Redis/DistributedLock_Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" filepath="$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SourceCode/JavaLock/JavaLock.iml" filepath="$PROJECT_DIR$/SourceCode/JavaLock/JavaLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceCode/JavaThread_Lock/JavaThread_Lock.iml" filepath="$PROJECT_DIR$/SourceCode/JavaThread_Lock/JavaThread_Lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceCode/Java_Stream/Java_Stream.iml" filepath="$PROJECT_DIR$/SourceCode/Java_Stream/Java_Stream.iml" />
     </modules>
   </component>
 </project>
