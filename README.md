@@ -10,7 +10,7 @@
 + 部分文章的源码实现都可以在[SourceCode]()文件夹下找到。
 + 该项目是本人学习三高相关知识的进阶笔记，随着难度增加分为三段，附庸风雅的运用王国维先生的三种境界来表述。
 
-# $\color{7f1A8A}高可用$ 
+# 高可用
 **第一境界**：昨夜西风凋碧树，独上高楼，望尽天涯路
  ****
 + <font color=#Af2233 size=4 >**高可用集群搭建**</font>
@@ -29,7 +29,7 @@
 + <font color=#Af2233 size=4 > **高可用方案设计** </font>
   + [RabbitMQ实现消息100%投递的详细设计和测试方案](https://blog.csdn.net/ljfirst/article/details/106012727)
 
-# $\color{7f1A8A}高并发$
+# 高并发
 **第二境界**：衣带渐宽终不悔，为伊消得人憔悴
  ****
 + <font color=#Af2233 size=4 > **Java并发**</font> 
@@ -40,7 +40,7 @@
 + <font color=#Af2233 size=4 >**缓存专题**</font> 
 + <font color=#Af2233 size=4 >**高并发方案设计**</font>
 
-# $\color{7f1A8A}高性能$
+# 高性能
 **第三境界**：众里寻他千百度，蓦然回首，那人却在,灯火阑珊处
  ****
 + <font color=#Af2233 size=4 >**应用性能**</font> 
@@ -54,7 +54,7 @@
 + <font color=#Af2233 size=4 >**中间件性能**</font> 
 + <font color=#Af2233 size=4 >**高性能方案设计**</font> 
 
-# $\color{7f1A8A}框架专题$
+# 框架专题
  ****
 + <font color=#Af2233 size=4 >**Netty专题**</font> 
   + 预备知识：NIO及网络模型分析

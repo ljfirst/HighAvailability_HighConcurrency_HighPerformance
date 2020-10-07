@@ -10,7 +10,7 @@ import org.junit.Test;
  * @blogURL https://blog.csdn.net/ljfirst
  * @description
  */
-public class ThreadDemo extends Thread{
+public class ThreadPool_Demo extends Thread{
 
     @Override
     public void run() {
@@ -19,7 +19,7 @@ public class ThreadDemo extends Thread{
 
     @Test
     public void test() {
-        ThreadDemo t = new ThreadDemo();
+        ThreadPool_Demo t = new ThreadPool_Demo();
         t.start();
     }
 
