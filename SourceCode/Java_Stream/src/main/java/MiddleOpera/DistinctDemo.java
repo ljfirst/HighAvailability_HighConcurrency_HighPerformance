@@ -18,10 +18,11 @@ import java.util.stream.Collectors;
  * @description
  */
 public class DistinctDemo {
+    Student student = new Student();
 
     @Test
     public void distinctdemoStudent() {
-        Student student = new Student();
+
         List<Student> list = student.getStudentlist();
         long i = list.stream().distinct().count();
         System.out.println(i);
@@ -30,7 +31,6 @@ public class DistinctDemo {
     @Test
     //distinct（）不提供按照属性对 对象列表 进行去重的直接实现
     public void distinctdemoStudent1() {
-        Student student = new Student();
         List<Student> list = student.getStudentlist();
         list.stream().
                 filter(distinctByKey(b -> b.getClassname())).
@@ -39,7 +39,6 @@ public class DistinctDemo {
 
     @Test
     public void distinctdemoStudent2() {
-        Student student = new Student();
         List<Student> list = student.getStudentlist();
         // 根据 age,classname 两个属性去重
         /*list.stream().collect(

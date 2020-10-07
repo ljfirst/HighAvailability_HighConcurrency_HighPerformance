@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DistributedLock_Redis" />
         <module name="CacheDemo" />
+        <module name="NettyDemo" />
         <module name="Java_Stream" />
         <module name="JavaThread_Lock" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="DistributedLock_Redis" target="8" />
       <module name="Java_Stream" target="8" />
       <module name="JavaThread_Lock" target="8" />
+      <module name="NettyDemo" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

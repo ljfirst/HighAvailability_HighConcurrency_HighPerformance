@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" filepath="$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" />
       <module fileurl="file://$PROJECT_DIR$/SourceCode/JavaThread_Lock/JavaThread_Lock.iml" filepath="$PROJECT_DIR$/SourceCode/JavaThread_Lock/JavaThread_Lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/SourceCode/Java_Stream/Java_Stream.iml" filepath="$PROJECT_DIR$/SourceCode/Java_Stream/Java_Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceCode/NettyDemo/NettyDemo.iml" filepath="$PROJECT_DIR$/SourceCode/NettyDemo/NettyDemo.iml" />
     </modules>
   </component>
 </project>
