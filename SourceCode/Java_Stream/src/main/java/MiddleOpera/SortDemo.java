@@ -27,17 +27,29 @@ public class SortDemo {
                 sorted(Comparator.comparing(Student::getAge)).
                 collect(Collectors.toList());
         for (Student s : list) {
-            System.out.println(s.toString());;
+            System.out.println(s.toString());
+            ;
         }
+    }
+
+    @Test
+    public void sortDemoStudent1() {
+        Student student = new Student();
+        List<Student> list = student.getStudentlist();
+        list.stream()
+                //.sorted(Comparator.comparing(Student::getAge))
+                .sorted(
+                        (x1, x2) -> x1.getAge() > x2.getAge() ? 1 : x1.getAge() == x2.getAge() ? 0 : -1
+                )
+                .forEach(System.out::println);
     }
 
     @Test
     public void sortDemoEmploy() {
         Employ employ = new Employ();
         List<Employ> list = employ.getEmploylist();
-        list = list.stream().sorted(Comparator.comparing(Employ::getSalary)).collect(Collectors.toList());
-        for (Employ s : list) {
-            System.out.println(s.toString());;
-        }
+        list.stream()
+                .sorted(Comparator.comparing(Employ::getSalary))
+                .forEach(System.out::println);
     }
 }

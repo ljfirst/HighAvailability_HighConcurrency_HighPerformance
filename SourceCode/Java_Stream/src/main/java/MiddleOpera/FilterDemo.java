@@ -22,7 +22,8 @@ public class FilterDemo {
     public void filterDemoStudent() {
         Student student = new Student();
         List<Student> l = student.getStudentlist();
-        l = l.stream().filter(student1 -> (17 == student1.getAge())).
+        l = l.stream()
+                .filter(student1 -> (15 >= student1.getAge())).
                 collect(Collectors.toList());
         for (Student ss : l) {
             System.out.println(ss.toString());
@@ -33,9 +34,9 @@ public class FilterDemo {
     public void filterDemoEmploy() {
         Employ employ = new Employ();
         List<Employ> l = employ.getEmploylist();
-        l = l.stream().filter(employ1 -> ("宝山区" == employ1.getAddr())).collect(Collectors.toList());
-        for (Employ ll : l) {
-            System.out.println(ll.toString());
-        }
+        l.stream()
+                .filter(employ1 -> ("宝山区" == employ1.getAddr()))
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
     }
 }

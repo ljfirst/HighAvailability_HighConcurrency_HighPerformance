@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author liujun
@@ -22,20 +23,22 @@ public class MapDemo {
     public void mapDemoStudent() {
         Student student = new Student();
         List<Student> list = student.getStudentlist();
-        List<String> l = list.stream().map(Student::getAddress).collect(Collectors.toList());
-        //List<String> l = list.stream().map(x->x.getAddress()).collect(Collectors.toList());
-        for(String s:l){
+        List<String> l = list.stream()
+                .map(Student::getAddress).collect(Collectors.toList());
+        for (String s : l) {
             System.out.println(s);
         }
     }
+
+    //mapToDouble
     @Test
     public void mapDemoStudent1() {
         Student student = new Student();
         List<Student> list = student.getStudentlist();
         list.stream().
                 //map(x->x.getClassname().length()).
-                map(x->x.getName().length()).
-                collect(Collectors.toList()).
+                mapToDouble(x -> x.getName().length()).
+                // collect(Collectors.toList()).
                 forEach(System.out::println);
     }
 
@@ -46,9 +49,18 @@ public class MapDemo {
         List<String> l = list.stream().
                 map(Employ::getAddr).
                 //map(x->x.getAddr())
-                collect(Collectors.toList());
-        for(String s:l){
+                        collect(Collectors.toList());
+        for (String s : l) {
             System.out.println(s);
         }
+    }
+
+    //flatMap
+    @Test
+    public void flatMapDemo(){
+        Stream.of("a-b-c-d","e-f-i-g-h")
+                .flatMap(e->Stream.of(e.split("-")))
+                //.forEach(e->System.out.println(e));
+                .forEach(System.out::println);
     }
 }

@@ -21,7 +21,6 @@ public class LimitDemo {
         List<Student> l = student.getStudentlist();
         l.stream().
                 filter(student1 -> (17 == student1.getAge())).
-                collect(Collectors.toList()).
                 forEach(System.out::println);
 
         System.out.println("\n=======limit=======\n");
@@ -29,7 +28,6 @@ public class LimitDemo {
         l.stream().
                 filter(student1 -> (17 == student1.getAge())).
                 limit(3).
-                collect(Collectors.toList()).
                 forEach(System.out::println);
     }
 }

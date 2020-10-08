@@ -18,10 +18,12 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student {
+
     String name;
     int age;
     String classname;
     String address;
+
     //@Cleanup 自动关闭资源，针对实现了java.io.Closeable接口的对象有效，如：典型的IO流对象
     public List getStudentlist() {
         List StudentList = new ArrayList<Student>() {

@@ -22,7 +22,6 @@ public class DistinctDemo {
 
     @Test
     public void distinctdemoStudent() {
-
         List<Student> list = student.getStudentlist();
         long i = list.stream().distinct().count();
         System.out.println(i);
@@ -51,11 +50,11 @@ public class DistinctDemo {
 
         list.stream().collect(
                 Collectors.collectingAndThen(
-                        Collectors.toCollection(() -> new TreeSet<>(
-                                Comparator.comparing(o -> o.getAge() + ";" + o.getClassname()
-                                ))
-                        ), ArrayList::new)).
-                forEach(System.out::println);
+                        Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(o -> o.getAge() + ";" + o.getClassname()))),
+                        ArrayList::new
+                        )
+                )
+                .forEach(System.out::println);
     }
 
     static <T> Predicate<T> distinctByKey(Function<? super T, ?> keyExtractor) {
