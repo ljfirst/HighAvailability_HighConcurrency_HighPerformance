@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  * @date 2020/10/8
  * @author—Email liujunfirst@outlook.com
  * @blogURL https://blog.csdn.net/ljfirst
- * @description 最大 最小 操作
+ * @description max_min 最大 最小 操作
  */
 public class Max_MinDemo {
 

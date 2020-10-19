@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DistributedLock_Redis" />
-        <module name="CacheDemo" />
-        <module name="NettyDemo" />
-        <module name="Java_Stream" />
         <module name="JavaThread_Lock" />
+        <module name="CacheDemo" />
+        <module name="Java_Stream" />
+        <module name="NettyDemo" />
+        <module name="DistributedLock_Redis" />
+        <module name="GeneralCode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CacheDemo" target="1.8" />
       <module name="DistributedLock_Redis" target="8" />
+      <module name="GeneralCode" target="8" />
       <module name="Java_Stream" target="8" />
       <module name="JavaThread_Lock" target="8" />
       <module name="NettyDemo" target="8" />

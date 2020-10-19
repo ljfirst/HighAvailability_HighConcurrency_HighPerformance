@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * @date 2020/9/9
  * @author—Email liujunfirst@outlook.com
  * @blogURL https://blog.csdn.net/ljfirst
- * @description 将一组数转换成stream
+ * @description  Value2Stream 将一组数转换成stream
  */
 public class Value2Stream {
 

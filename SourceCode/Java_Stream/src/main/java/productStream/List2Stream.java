@@ -10,7 +10,7 @@ import java.util.List;
  * @date 2020/9/9
  * @author—Email liujunfirst@outlook.com
  * @blogURL https://blog.csdn.net/ljfirst
- * @description
+ * @description List2Stream
  */
 public class List2Stream {
 

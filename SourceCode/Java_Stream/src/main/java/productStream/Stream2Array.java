@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * @date 2020/10/8
  * @author—Email liujunfirst@outlook.com
  * @blogURL https://blog.csdn.net/ljfirst
- * @description
+ * @description Stream2Array
  */
 public class Stream2Array {
 

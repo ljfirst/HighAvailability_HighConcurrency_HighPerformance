@@ -11,7 +11,7 @@ import java.util.List;
  * @date 2020/10/8
  * @author—Email liujunfirst@outlook.com
  * @blogURL https://blog.csdn.net/ljfirst
- * @description 规约操作
+ * @description reduce 规约操作
  */
 public class ReduceDemo {
     Student student = new Student();

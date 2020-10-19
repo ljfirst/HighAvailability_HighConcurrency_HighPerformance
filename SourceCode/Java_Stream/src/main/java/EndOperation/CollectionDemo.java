@@ -2,7 +2,6 @@ package EndOperation;
 
 import entity.Student;
 import org.junit.Test;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,11 +12,9 @@ import java.util.stream.Collectors;
  * @date 2020/10/8
  * @author—Email liujunfirst@outlook.com
  * @blogURL https://blog.csdn.net/ljfirst
- * @description
+ * @description collection
  */
 public class CollectionDemo {
-
-    Student s = new Student();
 
     @Test
     public void demo() {

@@ -33,7 +33,10 @@
 **第二境界**：衣带渐宽终不悔，为伊消得人憔悴
  ****
 + <font color=#Af2233 size=4 > **Java并发**</font> 
+  + [Java进阶系列：锁：Synchronized、Lock、Volatile、CAS、Concurrent包](https://blog.csdn.net/ljfirst/article/details/108039297)
+  + [Java进阶系列：线程池与阻塞队列](https://blog.csdn.net/ljfirst/article/details/108651352)
   + [Java进阶系列：ThreadLocal的用法和坑](https://blog.csdn.net/ljfirst/article/details/108635283)
+  + [Java进阶系列：Stream的使用](https://blog.csdn.net/ljfirst/article/details/108635295)
 + <font color=#Af2233 size=4 >**数据库并发**</font> 
 + <font color=#Af2233 size=4 >**并行计算**</font> 
 + <font color=#Af2233 size=4 >**并发限流**</font> 

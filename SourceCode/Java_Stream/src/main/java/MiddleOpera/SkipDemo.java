@@ -11,7 +11,7 @@ import java.util.List;
  * @date 2020/9/9
  * @author—Email liujunfirst@outlook.com
  * @blogURL https://blog.csdn.net/ljfirst
- * @description
+ * @description skip
  */
 public class SkipDemo {
 
@@ -19,8 +19,13 @@ public class SkipDemo {
     public void skipdemo() {
         Student student = new Student();
         List<Student> list = student.getStudentlist();
-        list.stream().filter(x -> x.getAge() > 16).forEach(System.out::println);
+        list.stream()
+                .filter(x -> x.getAge() > 16)
+                .forEach(System.out::println);
         System.out.println("\n=======   skip  ======\n");
-        list.stream().filter(x -> x.getAge() > 16).skip(2).forEach(System.out::println);
+        list.stream()
+                .filter(x -> x.getAge() > 16)
+                .skip(2)
+                .forEach(System.out::println);
     }
 }
