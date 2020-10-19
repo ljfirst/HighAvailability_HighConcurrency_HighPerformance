@@ -2,3 +2,8 @@
 SourceCode/DistributedLock_Redis/target
 SourceCode/Java_Stream/target/
 SourceCode/JavaThread_Lock/target/
+SourceCode/BuildDatabaseDoc/target/
+SourceCode/GeneralCode/target/
+SourceCode/NettyDemo/target/
+
+

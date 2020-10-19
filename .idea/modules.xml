@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SourceCode/BuildDatabaseDoc/BuildDatabaseDoc.iml" filepath="$PROJECT_DIR$/SourceCode/BuildDatabaseDoc/BuildDatabaseDoc.iml" />
       <module fileurl="file://$PROJECT_DIR$/SourceCode/DistributedLock_Redis/DistributedLock_Redis.iml" filepath="$PROJECT_DIR$/SourceCode/DistributedLock_Redis/DistributedLock_Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SourceCode/GeneralCode/GeneralCode.iml" filepath="$PROJECT_DIR$/SourceCode/GeneralCode/GeneralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" filepath="$PROJECT_DIR$/HighAvailability_HighConcurrency_HighPerformance.iml" />
